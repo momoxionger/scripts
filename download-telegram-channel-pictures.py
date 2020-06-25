@@ -10,11 +10,11 @@ channel_link 要下载图片的频道链接
 proxy 将localhost改成代理地址,12345改成代理端口
 picture_storage_path 图片下载到的路径
 '''
-api_id = 123456
-api_hash = "23jhbfj23kbf3wkfbwk3j8w3fbesiug"
-channel_link = "https://t.me/xxxx"
-proxy =(socks.SOCKS5,"localhost",12345) #不需要代理的话删掉该行
-picture_storage_path = "picture_storage_path"
+api_id = 1567248
+api_hash = "c1b4ab69dbb4f815bdd25b6c0451915a"
+channel_link = "https://t.me/manyhotgirls"
+proxy =(socks.SOCKS5,"192.168.0.2",1080) #不需要代理的话删掉该行
+picture_storage_path = "/mnt/sda1/secret/Pictures"
 # ==========================================
 client = TelegramClient('my_session',api_id=api_id,api_hash=api_hash,proxy=proxy).start()
     
